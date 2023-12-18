@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+ul,li{
+    list-style:none;
+}
+
+
+
+a{
+    
+    text-decoration: none;
+    color:inherit;
+}
+
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+#home{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+}
+
+
+#about-chef{
+    background-image: linear-gradient(to top, rgba(86, 86, 86, 0.8), rgba(147, 145, 145, 0.2)), url(images/33.jpg);
+    background-size:cover;
+    background-position: center top;
+    background-attachment: fixed;
+    
+}
+
+
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(86, 86, 86, 0.8), rgba(147, 145, 145, 0.2)), url(images/bg-2.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.navbar{
+   
+    font-family: 'Nanum Pen Script', cursive;
+    background-color: rgb(135, 128, 121);
+}
+
+
+.nav-link:hover,
+.nav-link.active {
+    color: #fcfaf5 !important;
+    
+}
+
+li{
+    font-size: 25px;
+    margin-inline: 10px; 
+}
+
+
+
+.card{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-block-start: 20px; 
+    background-color: rgb(216, 204, 192);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.wrap{   
+    
+        display:flex;
+        justify-content:row;
+        gap:15px;
+}
+ 
+
+#design{
+    background-image: linear-gradient(to top, rgba(86, 86, 86, 0.8), rgba(147, 145, 145, 0.2)), url(images/dddd.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.board_wrap{
+    width: 1000px;
+    margin:100px auto;
+}
+
+.board_title{
+    margin-bottom: 30px;
+}
+
+.board_title strong{
+   
+   font-size: 3rem;
+}
+
+.board_title p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.bt_wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-size:0;
+}
+
+.bt_wrap a{
+   display: inline-block;
+   min-width:80px;
+   padding:10px;
+   border:1px solid black;
+    border-radius: 2px;
+    font-size:15px;
+    margin-left:10px;
+}
+
+.bt_wrap a.on{
+    background: black;
+    color:#fff;
+}
+.board_list {
+    width: 100%;
+    border-top: 2px solid #000;
+}
+
+.board_list > div {
+    border-bottom:1px solid #ddd;
+    font-size:0;
+}
+
+.board_list > div.top{
+    border-bottom: 1px solid #999;
+}
+
+.board_list > div:last-child{
+    border-bottom: 1px solid #000;
+}
+
+.board_list > div > div{
+    display: inline-block;
+    font-size:1.4rem;
+    padding:15px 0;
+    text-align:center;
+}
+
+.board_list >div.top>div{
+    font-weight: 600;
+}
+
+.board_list .num{
+    width:10%;
+}
+.board_list .title{
+    width:60%;
+    text-align: left;
+}
+
+.board_list .top .title{
+    text-align: center;
+}
+.board_list .writer{
+    width:10%;
+}
+.board_list .date{
+    width:10%;
+}
+.board_list .count{
+    width:10%;
+}
+
+.board_page{
+    margin-top: 30px;
+    text-align: center;
+}
+.board_page a{
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ddd;
+    border-left: 0;
+    vertical-align: middle;
+    line-height:100%;
+}
+.board_page a.bt{
+    letter-spacing: -1px;
+    font-size: 1.2rem;
+}
+.board_page a.num{
+    font-size: 1.4rem;
+}
+.board_page a:first-child{
+    border-left:1px solid #ddd;
+}
+
+.board_page a.num.on{
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+a:link{color:rgb(5, 5, 5);text-decoration:none;}
+a:visited{color:black;text-decoration:none;}
+a:hover{color:blue;text-decoration:underline;}
